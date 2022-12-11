@@ -42,6 +42,7 @@ button {
     width: 200px;
     margin-bottom: 5px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 #increment-btn {
@@ -49,14 +50,27 @@ button {
     margin-bottom: 20px;
 }
 
+#increment-btn:hover {
+    background-color: #10104f;
+}
+
 #save-btn {
     background: #65b387;
     margin-bottom: 20px;
 }
 
+#save-btn:hover {
+    background-color: #104619;
+}
+
 #clear-btn {
-    background: #2c2c2c;
+    background: #e1e0e0;
+    color: black;
     margin-bottom: 20px;
+}
+
+#clear-btn:hover {
+    background-color: #7f7f7f;
 }
 
 #save-el {
