@@ -6,9 +6,9 @@ body {
 }
 
 .container {
-    background: white;
+    background: aliceblue;
     max-width: 80%;
-    margin: auto;
+    margin: 50px auto;
     border: 3px solid black;
     border-radius: 10px;
 }
@@ -37,12 +37,20 @@ button {
 
 #increment-btn {
     background: #658ede;
+    margin-bottom: 20px;
 }
 
 #save-btn {
     background: #65b387;
+    margin-bottom: 20px;
+}
+
+#clear-btn {
+    background: #2c2c2c;
+    margin-bottom: 20px;
 }
 
 #save-el {
     font-weight: bold;
+    margin-bottom: 100px;
 }
