@@ -18,7 +18,7 @@ body {
     max-width: 80%;
     margin: 10px auto;
     border: 3px solid gray;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 0 20px;
 }
 
@@ -34,14 +34,19 @@ h2 {
 }
 
 button {
+    position: relative;
     border: 1px solid black;
+    font-weight: bold;
+    color: white;
     padding-top: 20px;
     padding-bottom: 20px;
-    color: white;
-    font-weight: bold;
     width: 200px;
     margin-bottom: 5px;
     border-radius: 5px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
     cursor: pointer;
 }
 
@@ -50,27 +55,15 @@ button {
     margin-bottom: 20px;
 }
 
-#increment-btn:hover {
-    background-color: #10104f;
-}
-
 #save-btn {
     background: #65b387;
     margin-bottom: 20px;
-}
-
-#save-btn:hover {
-    background-color: #104619;
 }
 
 #clear-btn {
     background: #e1e0e0;
     color: black;
     margin-bottom: 20px;
-}
-
-#clear-btn:hover {
-    background-color: #7f7f7f;
 }
 
 #save-el {

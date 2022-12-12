@@ -23,5 +23,6 @@ function clearall() {
     saveEl.textContent = "- "
     countEl.textContent = 0
     totalEl.textContent = 0
+    total = 0
     count = 0
 }
